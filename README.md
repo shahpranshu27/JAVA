@@ -1,3 +1,3 @@
 # Java_basic_programs
 
-Hello fellow coders, I have just started learning Java language, and here, in this repository, I'm gonna add the basic programs & projects that I am gonna make in Java, and track my progress. 
+Hello fellow coders 👋, I have just started learning Java language 💻, and here, in this repository, I'm gonna add the basic programs & projects that I am gonna make in Java, and track my progress. 
