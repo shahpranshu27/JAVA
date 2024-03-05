@@ -13,4 +13,3 @@ public class Pattern4 {
         }
     }
 }
-// start from pattern 8, https://www.javatpoint.com/how-to-print-pattern-in-java
