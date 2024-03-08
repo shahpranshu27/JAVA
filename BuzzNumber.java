@@ -1,6 +1,6 @@
 // a number that ends with 7 or is divisible by 7, is called buzz number
 import java.util.*;
-import java.io.*;
+// import java.io.*;
 public class BuzzNumber {
     static boolean checkNumber(int num){
         if(num%7 == 0 || num%10 == 7){
