@@ -6,6 +6,7 @@ public class SunnyNumber {
         System.out.println("Enter a number : ");
         int n = sc.nextInt();
         isSunnyNumber(n);
+        sc.close();
     }
     static boolean findPerfectSquare(double num){
         double square_root = Math.sqrt(num);

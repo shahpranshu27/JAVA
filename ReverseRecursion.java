@@ -16,5 +16,6 @@ public class ReverseRecursion {
         int num = sc.nextInt();
         System.out.print("Reverse is : ");
         reverseNum(num);
+        sc.close();
     }
 }

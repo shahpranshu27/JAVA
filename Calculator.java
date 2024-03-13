@@ -24,5 +24,6 @@ public class Calculator {
             else{System.out.println("Invalid operator");}
             System.out.println("Result : "+ans);
         }
+        sc.close();
     }
 }

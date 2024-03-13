@@ -20,5 +20,6 @@ public class Switch {
                 System.out.println("enter a valid fruit...");
                 break;
         }
+        sc.close();
     }
 }

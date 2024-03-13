@@ -11,6 +11,7 @@ public class KrishnamurthyNumber {
         for(int i=1; i<=range; i++){
             checkNumber(i);
         }
+        sc.close();
     }
     static int fact(int num){
         int f = 1;

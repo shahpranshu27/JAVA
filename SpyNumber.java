@@ -26,6 +26,6 @@ public class SpyNumber {
             if(isSpyNumber(i))
             System.out.println(i+" ");
         }
-        
+        sc.close();
     }
 }

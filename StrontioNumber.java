@@ -17,5 +17,6 @@ public class StrontioNumber {
         else{
             System.out.println("Enter a 4 digit number");
         }
+        sc.close();
     }    
 }

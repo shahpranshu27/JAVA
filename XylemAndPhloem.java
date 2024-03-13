@@ -1,6 +1,5 @@
 // if the sum of extreme digits = sum of mean digits (numbers in between the extreme digits), it is called Xylem, else Phloem
 import java.util.*;
-import java.io.*;
 
 public class XylemAndPhloem {
     public static void main(String[] args) {
@@ -10,6 +9,7 @@ public class XylemAndPhloem {
         num = sc.nextInt();
         num = Math.abs(num); // find absolute number of given number
         n = num;
+        sc.close();
         while(n!=0){
             if(n==num || n<10){
                 extreme_sum = extreme_sum + n%10;

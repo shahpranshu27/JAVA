@@ -28,5 +28,6 @@ public class DuckNumber {
         else{
             System.out.println(n2+" is not a Duck number");
         }
+        sc.close();
     }
 }

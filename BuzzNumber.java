@@ -30,5 +30,6 @@ public class BuzzNumber {
         else{
             System.out.println(n2+" is not a Buzz number");
         }
+        sc.close();
     }
 }

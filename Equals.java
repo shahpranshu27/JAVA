@@ -15,5 +15,6 @@ public class Equals {
         else{
             System.out.println("enter the name of fruit!!");
         }
+        sc.close();
     }
 }

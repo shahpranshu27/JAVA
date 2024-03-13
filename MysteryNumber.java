@@ -29,5 +29,6 @@ public class MysteryNumber {
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
         isMysteryNo(num);
+        sc.close();
     }
 }

@@ -15,5 +15,6 @@ public class NeonNumber {
         }
         if(sum == n){System.out.println(n+" is a neon number");}
         else{System.out.println(n+" is not a neon number");}
+        sc.close();
     }
 }

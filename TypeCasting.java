@@ -17,5 +17,6 @@ public class TypeCasting {
         int a = 258;
         byte b = (byte)(a);
         System.out.println(b); // it will divide the int number by the max possible value of int range, and provide the remainder i.e. 258%256
+        sc.close();
     }
 }
