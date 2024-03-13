@@ -36,6 +36,6 @@ public class NestedSwitch {
             System.out.println("No employee found!");
                 break;
         }
-
+        sc.close();
     }
 }
