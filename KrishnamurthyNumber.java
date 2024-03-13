@@ -1,6 +1,5 @@
 // factorial sum of all it's digits = number itself
 import java.util.*;
-import java.io.*;
 
 public class KrishnamurthyNumber {
     public static void main(String[] args) {

@@ -3,7 +3,7 @@ class Student4{
     String name;
     static String college = "IIT";
 
-    static void changeCollege(String s){
+    void changeCollege(String s){
         college = s;
     }
 

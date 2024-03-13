@@ -1,6 +1,5 @@
 // a non-zero number, where the first digit shoul not be 0, amd it should contain atleast 1 zero
 import java.util.*;
-import java.io.*;
 
 public class DuckNumber {
     public static boolean checkNumber(int num){
