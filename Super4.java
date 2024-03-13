@@ -1,12 +1,12 @@
-class Person{
+class Person1{
     int id;
     String name;
-    Person(int id, String name){
+    Person1(int id, String name){
         this.id = id;
         this.name = name;
     }
 }
-class Emp extends Person{
+class Emp extends Person1{
     float salary;
     Emp(int id, String name, float salary){
         super(id, name);

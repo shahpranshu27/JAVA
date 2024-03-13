@@ -1,8 +1,8 @@
 // refer immediate parent class instance variable
-class Animal{
+class Animal2{
     String color = "White";
 }
-class Dog extends Animal{
+class Dog extends Animal2{
     String color = "black";
     void printColor(){
         System.out.println(color);

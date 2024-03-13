@@ -3,7 +3,7 @@ class Operation{
         return n*n;
     }
 }
-class Circle{
+class Circle1{
     // Operation op;
     double pi = 3.14;
 
@@ -15,7 +15,7 @@ class Circle{
 }
 public class Aggregration {
     public static void main(String[] args) {
-        Circle c = new Circle();
+        Circle1 c = new Circle1();
         double result = c.area(5);
         System.out.println(result);
     }

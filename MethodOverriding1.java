@@ -1,13 +1,13 @@
-class Bank{
+class Bank1{
     int getRateOfInterest(){return 0;}
 }
-class SBI extends Bank{
+class SBI extends Bank1{
     int getRateOfInterest(){return 7;}
 }
-class ICICI extends Bank{
+class ICICI extends Bank1{
     int getRateOfInterest(){return 8;}
 }
-class AXIS extends Bank{
+class AXIS extends Bank1{
     int getRateOfInterest(){return 9;}
 }
 public class MethodOverriding1 {

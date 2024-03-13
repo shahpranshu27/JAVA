@@ -1,4 +1,4 @@
-class Rectangle{
+class Rectangle1{
     int length;
     int width;
     // void insert(int l, int w){
@@ -7,7 +7,7 @@ class Rectangle{
     // }
     
     // parameterized contructor
-    Rectangle(int l, int w){
+    Rectangle1(int l, int w){
         length = l;
         width = w;
     }
@@ -16,7 +16,7 @@ class Rectangle{
 }
 public class TestRectangle {
     public static void main(String[] args) {
-        Rectangle r1 = new Rectangle(5,6);
+        Rectangle1 r1 = new Rectangle1(5,6);
         // Rectangle r2 = new Rectangle();
         // r1.insert(5,6);
         // r2.insert(10,12);

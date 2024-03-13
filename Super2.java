@@ -1,10 +1,10 @@
 // invoke arent class method
-class Animal{
+class Animal3{
     void eat(){
         System.out.println("Eating..!!");
     }
 }
-class Dog extends Animal{
+class Dog extends Animal3{
     void eat(){System.out.println("Eating roti..!!");}
     void bark(){System.out.println("Barking..!!");}
 

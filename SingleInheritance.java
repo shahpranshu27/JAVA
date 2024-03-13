@@ -1,9 +1,9 @@
-class Animal{
+class Animal1{
     void eat(){
         System.out.println("Eating..!!");
     }
 }
-class Dog extends Animal{
+class Dog extends Animal1{
     void bark(){System.out.println("Barking..!!");}
 }
 public class SingleInheritance {
