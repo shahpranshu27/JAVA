@@ -7,6 +7,6 @@ public class IntToBinary {
 
         String binary = Integer.toBinaryString(num);
         System.out.println("Binary representation of "+num+" is: "+binary);
-
+        sc.close();
     }
 }
