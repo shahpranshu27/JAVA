@@ -14,5 +14,6 @@ public class Sum {
         // System.out.println("Sum of 2 numbers: "+(num1+num2)); // if return type is void
         sc.close();
         return (num1+num2); // only if return type is int or float or double or something, then only we use return type 
+        // System.out.println("This statement will never execute"); // it's giving an error as unreachable statement, as after return statement is written, nothing that's written below gets executed
     }
 }
