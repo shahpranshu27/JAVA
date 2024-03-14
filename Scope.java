@@ -9,6 +9,7 @@ public class Scope {
             int b = 4; // here, b is initialized inside the block, so it can not be accesed outside the block
             System.out.println("initialized b in block scope: "+b);
             // values initialized in the block, remains in the block
+            // if something is initialized outside the block, we can not initialize it inside the block, but if something is initialized outside the block, we can not access it outside the block, so we can initialize the same thing outside the block
         }
         System.out.println("a outside block scope again: "+a);
     }
