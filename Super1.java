@@ -2,7 +2,7 @@
 class Animal2{
     String color = "White";
 }
-class Dog extends Animal2{
+class Dog1 extends Animal2{
     String color = "black";
     void printColor(){
         System.out.println(color);
@@ -11,7 +11,7 @@ class Dog extends Animal2{
 }
 public class Super1 {
     public static void main(String[] args) {
-        Dog d = new Dog();
+        Dog1 d = new Dog1();
         d.printColor();
     }
 }

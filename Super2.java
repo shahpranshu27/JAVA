@@ -4,7 +4,7 @@ class Animal3{
         System.out.println("Eating..!!");
     }
 }
-class Dog extends Animal3{
+class Dog3 extends Animal3{
     void eat(){System.out.println("Eating roti..!!");}
     void bark(){System.out.println("Barking..!!");}
 
@@ -16,7 +16,7 @@ class Dog extends Animal3{
 }
 public class Super2 {
     public static void main(String[] args) {
-        Dog d = new Dog();
+        Dog3 d = new Dog3();
         d.work();
     }
 }

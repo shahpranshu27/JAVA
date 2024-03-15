@@ -6,9 +6,9 @@ class Person1{
         this.name = name;
     }
 }
-class Emp extends Person1{
+class Emp2 extends Person1{
     float salary;
-    Emp(int id, String name, float salary){
+    Emp2(int id, String name, float salary){
         super(id, name);
         this.salary = salary;
     }
@@ -19,7 +19,7 @@ class Emp extends Person1{
 }
 public class Super4 {
     public static void main(String[] args) {
-        Emp e1 = new Emp(1,"X",12345);
+        Emp2 e1 = new Emp2(1,"X",12345);
         e1.display();
     }
 }

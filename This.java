@@ -1,9 +1,9 @@
-class Student5{
+class Student6{
     int id;
     String name;
     float fees;
 
-    Student5(int id, String name, float fees){
+    Student6(int id, String name, float fees){
         // id = id;
         // name = name;
         // fees = fees;
@@ -20,7 +20,7 @@ class Student5{
 }
 public class This {
     public static void main(String[] args) {
-        Student5 s4 = new Student5(1, "X", 20000);
+        Student6 s4 = new Student6(1, "X", 20000);
         s4.display();
     }
 }

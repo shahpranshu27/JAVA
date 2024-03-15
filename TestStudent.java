@@ -4,7 +4,7 @@ class Student5{
 }
 public class TestStudent {
     public static void main(String[] args) {
-        Student s1 = new Student();
+        Student5 s1 = new Student5();
         // initialization through reference variable
         s1.id = 2;
         s1.name = "xyz";

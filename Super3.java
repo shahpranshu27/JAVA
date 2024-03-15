@@ -4,8 +4,8 @@ class Animal4{
         System.out.println("Animal is created");
     }
 }
-class Dog extends Animal4{
-    Dog(){
+class Dog4 extends Animal4{
+    Dog4(){
         super();
         System.out.println("Dog is created");
     }
@@ -13,7 +13,7 @@ class Dog extends Animal4{
 public class Super3 {
     public static void main(String[] args) {
         @SuppressWarnings("unused")
-        Dog d = new Dog();
+        Dog4 d = new Dog4();
         
     }
 }
