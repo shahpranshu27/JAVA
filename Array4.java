@@ -22,6 +22,10 @@ public class Array4 {
             list.add(sc.nextInt());
         }
 
-        System.out.println(list);
+        // System.out.println(list);
+
+        for(int i=0; i<list.size(); i++){
+            System.out.println(list.get(i));
+        }
     }
 }
