@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array1 {
@@ -15,9 +16,11 @@ public class Array1 {
         // }
 
         // for loop can be enhanced in the below way
-        for(int i:arr){
-            System.out.print(i+" ");
-        }
+        // for(int i:arr){
+        //     System.out.print(i+" ");
+        // }
+
+        System.out.println(Arrays.toString(arr));
         sc.close();
     }
 }
