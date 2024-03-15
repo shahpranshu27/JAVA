@@ -27,5 +27,6 @@ public class Array4 {
         for(int i=0; i<list.size(); i++){
             System.out.println(list.get(i)); // pass indices here, list[index] will not work here
         }
+        sc.close();
     }
 }
