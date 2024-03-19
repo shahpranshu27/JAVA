@@ -26,6 +26,10 @@ public class Class {
             this.name = other.name;
             this.marks = other.marks;
         }
+        // Students(){
+            // this is how you call a constructor from another constructor
+            // this(1, "pranshu", 98.5f);
+        // }
     }
     public static void main(String[] args) {
         Students pranshu = new Students(1, "pranshu", 98.4f);
