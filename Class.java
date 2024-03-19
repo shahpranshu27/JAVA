@@ -21,6 +21,11 @@ public class Class {
             this.name = "Siddh";
             this.marks = 45.7f;
         }
+        Students(Students other){
+            this.rno = other.rno;
+            this.name = other.name;
+            this.marks = other.marks;
+        }
     }
     public static void main(String[] args) {
         Students pranshu = new Students(1, "pranshu", 98.4f);
@@ -51,5 +56,11 @@ public class Class {
         System.out.println(siddh.rno);
         System.out.println(siddh.name);
         System.out.println(siddh.marks);
+
+        // here, we have passed an arguement as other Student's name, so all of the siddh's data will be copied to random's data credentials, and random will print siddh's data
+        Students random = new Students(siddh);
+        System.out.println(random.rno);
+        System.out.println(random.name);
+        System.out.println(random.marks);
     }
 }
