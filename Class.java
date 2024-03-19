@@ -4,10 +4,15 @@ public class Class {
         String name;
         float marks;
 
+        // Students(int roll, String n, float m){
+        //     rno = roll;
+        //     name = n;
+        //     marks = m;
+        // }
         Students(int roll, String n, float m){
-            rno = roll;
-            name = n;
-            marks = m;
+            this.rno = roll;
+            this.name = n;
+            this.marks = m;
         }
     }
     public static void main(String[] args) {
@@ -26,5 +31,10 @@ public class Class {
         System.out.println("roll no "+pranshu.rno);
         System.out.println("name "+pranshu.name);
         System.out.println("marks "+pranshu.marks);
+        System.out.println("Rahul's data: ");
+        Students rahul = new Students(2,"Rahul", 36.5f);
+        System.out.println(rahul.rno);
+        System.out.println(rahul.name);
+        System.out.println(rahul.marks);
     }
 }
