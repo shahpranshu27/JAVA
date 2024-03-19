@@ -10,6 +10,9 @@ public class WrapperClass {
         Integer num1 = 14;
         swap(num, num1); // still won't swap because Integer is a 'final' class, so it's value once assigned, can't be changed
         System.out.println(num +" "+ num1);
+
+        // final int c = 100;
+        // c = 23; // we can not change the value of c variable, as it's value is finalised
     }
 
     static void swap(int a, int b){
