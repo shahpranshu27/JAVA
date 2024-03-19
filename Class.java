@@ -15,6 +15,11 @@ public class Class {
             this.name = n;
             this.marks = m;
         }
+        Students(){
+            this.rno = 3;
+            this.name = "Siddh";
+            this.marks = 45.7f;
+        }
     }
     public static void main(String[] args) {
         Students pranshu = new Students(1, "pranshu", 98.4f);
@@ -37,5 +42,13 @@ public class Class {
         System.out.println(rahul.rno);
         System.out.println(rahul.name);
         System.out.println(rahul.marks);
+
+        // remember, if the values or not assigned independently in this main fucntion, it will by default take the values that were assigned in the constructor.
+        // Now, how will it decide which function/constructor to choose? as all the constructors are named after the class name only?
+        // so, the constructors can have same name, but the parameters should be different i.e. 1 parameter could  be passed, 2 parameters could be passed, 3 parameters could be passed and so on...
+        Students siddh = new Students();
+        System.out.println(siddh.rno);
+        System.out.println(siddh.name);
+        System.out.println(siddh.marks);
     }
 }
