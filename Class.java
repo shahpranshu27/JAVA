@@ -10,6 +10,7 @@ public class Class {
         //     marks = m;
         // }
         // once the code runs, this keyword is replaced with pranshu or rahul or anyone. ans, the values are assigned accordingly
+        // remember, the names of properties, and the names of variables should not be same. and if you want to use the same names and pass the same named variables in the function/constructor, then use 'this' keyword. this keyword will be replaced by pranshu or rahul or siddh or anything, and rolno, name, marks will be taken from those passed as the parameters
         Students(int roll, String n, float m){
             this.rno = roll;
             this.name = n;
