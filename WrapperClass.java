@@ -13,6 +13,7 @@ public class WrapperClass {
 
         // final int c = 100;
         // c = 23; // we can not change the value of c variable, as it's value is finalised
+        // always initialize while declaring it
     }
 
     static void swap(int a, int b){
