@@ -1,4 +1,11 @@
 public class WrapperClass {
+    static class A{
+        String name;
+
+        public A(String name){
+            this.name = name;
+        }
+    }
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
@@ -14,6 +21,14 @@ public class WrapperClass {
         // final int c = 100;
         // c = 23; // we can not change the value of c variable, as it's value is finalised
         // always initialize while declaring it
+
+        final A pranshu = new A("pranshu");
+        System.out.println(pranshu.name);
+        pranshu.name = "xyz";
+        System.out.println(pranshu.name);
+
+        // when a non primitive is final, you can not reassign it
+        // pranshu = new A("Pqr"); 
     }
 
     static void swap(int a, int b){
