@@ -9,6 +9,7 @@ public class Class {
         //     name = n;
         //     marks = m;
         // }
+        // once the code runs, this keyword is replaced with pranshu or rahul or anyone. ans, the values are assigned accordingly
         Students(int roll, String n, float m){
             this.rno = roll;
             this.name = n;
