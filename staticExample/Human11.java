@@ -21,8 +21,9 @@ public class Human11 {
         System.out.println(Human.population);
         System.out.println(Human.population);
         System.out.println(Human.population);
+        // hello();
+        // greet();
         hello();
-        greet();
         // Remember: static variables are not dependent on objects
     }
 
@@ -46,7 +47,7 @@ public class Human11 {
 
     void greeting(){
         Human11 obj1 = new Human11(); // obj1 object is created, and greet() and greeting() both the non static methods are accessed using this object only
-        obj1.greeting();
+        // obj1.greet();
         obj1.message();
         // obj1.greet(); // this will give warning because if the method is static, it should be accessed in static manner only
         System.out.println("hi");
@@ -56,8 +57,8 @@ public class Human11 {
     // if there are many non static methods, we just need to create 1 object in any 1 non static method, and then rest of the non static methods can be accessed through that object only
     void message(){
         System.out.println("message");
-        greeting();
-        greet(); // we can use static methods inside the non static methods, but vice versa isn't true 
-        hello();
+        // greeting();
+        // greet(); // we can use static methods inside the non static methods, but vice versa isn't true 
+        // hello();
     }
 }
