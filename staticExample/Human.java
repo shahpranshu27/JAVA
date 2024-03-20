@@ -14,5 +14,6 @@ public class Human {
         this.married = married;
         Human.population += 1; // here, even if we put this.population += 1; it will increase the value by 1 each and everytime new Human is created/instantiated, since it's static now, the new value will be stored everytime.
         // here, since we are using Human.population, it counts how many new Human examples are being created, and returns that value
+        // NOTE: ALWAYS USE HUMAN OR CLASS NAME ONLY
     }
 }
