@@ -45,10 +45,15 @@ public class Human11 {
     }
 
     void greeting(){
+        Human11 obj1 = new Human11(); // obj1 object is created, and greet() and greeting() both the non static methods are accessed using this object only
+        obj1.greeting();
+        obj1.message();
+        // obj1.greet(); // this will give warning because if the method is static, it should be accessed in static manner only
         System.out.println("hi");
         message(); // this also won't give error, as we can declare or use non static method in the non static method
     }
 
+    // if there are many non static methods, we just need to create 1 object in any 1 non static method, and then rest of the non static methods can be accessed through that object only
     void message(){
         System.out.println("message");
         greeting();
