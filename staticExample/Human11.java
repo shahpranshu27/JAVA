@@ -1,6 +1,6 @@
 package staticExample;
 
-import hello.bye.good.night.hello;
+// import hello.bye.good.night.hello;
 
 // import staticExample.Human;
 public class Human11 {
@@ -34,6 +34,13 @@ public class Human11 {
     }
 
     static void greet(){
+        // greeting(); // we can not use this because it requires an instance but the function we are using, it doesn't depend on the instance 
+
+        // we can not access non static stuff without referencing their references in static context 
+
+        // hence, here we are referencing it 
+        Human11 obj = new Human11();
+        obj.greeting();
         System.out.println("Hello");
     }
 
