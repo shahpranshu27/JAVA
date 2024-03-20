@@ -43,6 +43,7 @@ public class Human11 {
         Human11 obj = new Human11();
         obj.greeting();
         System.out.println("Hello");
+        // System.out.println(this.name); // we can not use this inside the static method, as static doesn't need to create an object, and this is used with objects only 
     }
 
     void greeting(){
