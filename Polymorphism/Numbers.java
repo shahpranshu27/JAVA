@@ -13,6 +13,8 @@ public class Numbers {
         return a+b+c;
     }
 
+    // this program is an examle of method overloading
+
     public static void main(String[] args) {
         Numbers n1 = new Numbers();
         System.out.println("sum1: "+n1.sum(2,3)); // even though a is input as int, it will be automatically typecasted into double
