@@ -1,16 +1,16 @@
 package staticExample;
 
 public class InnerClass {
-    // class Test{
-    //     // Remember, outside classes can never be static
-    //     // In this case, InnerClass is an outside class, it can never be static because it itself can not be dependent on any other class but class Test is dependent on outside class
+    class Test{
+        // Remember, outside classes can never be static
+        // In this case, InnerClass is an outside class, it can never be static because it itself can not be dependent on any other class but class Test is dependent on outside class
         
-    //     String name;
+        String name;
 
-    //     public Test(String name){
-    //         this.name = name;
-    //     }
-    // }
+        public Test(String name){
+            this.name = name;
+        }
+    }
 
     static class Test1{
         String name1;
@@ -21,6 +21,13 @@ public class InnerClass {
     }
 
     public static void main(String[] args) {
+
+
+        // here, since class Test is not static, and is inside the InnerClass, we can instantiate it by InnerClass instance
+        InnerClass obj = new InnerClass();
+        Test obj1 = obj.new Test("null123");
+
+        System.out.println(obj1.name);
         // here, if class is not defined or assigned static, we can not access it in main class, for the same reason as non static can not be accessed in static class 
         // if we assign class Test as static, then we can use it 
         // or if we keep the class Test outside the main class i.e. InnerClass, it will work completely fine, but here, since class Test itself is inside the InnerClass, it is dependent on an object 
