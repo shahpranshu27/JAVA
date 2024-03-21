@@ -6,6 +6,9 @@ public class Box {
     double w;
 
     Box(){
+
+        // super(); object class
+
         this.l = -1;
         this.w = -1;
         this.h = -1;

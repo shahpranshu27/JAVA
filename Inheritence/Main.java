@@ -10,5 +10,27 @@ public class Main {
 
         Box box2 = new Box(cube);
         System.out.println(box2.l +" "+ box2.w +" "+ box2.h);
+
+        BoxWeight box3 = new BoxWeight();
+        System.out.println(box3.l+" "+box3.w+" "+box3.w+" "+box3.weight); 
+
+        BoxWeight box4 = new BoxWeight(1, 2, 3, 4);
+        System.out.println(box4.l+" "+box4.w+" "+box4.h+" "+box4.weight);
+
+        // there are many variables in both parent and child
+        // you are given access to variables that are in reference type i.e. BoxWeight, hence you should have access to weight variable
+        // this also means that ones you are trying to access should be initialised
+        // but here, when the object itself is of type parent class, how will we call the constructor of child class
+        // parent class know what classes are below it i.e. about the child classes
+        // but, the child class doesn't know about the parent class 
+        // we can not have child reference varibale, and a parent object
+        // thus, this will give and error
+        // BoxWeight box5 = new Box(1, 2, 3);
+
+
+        // we can access the child class object throghht parent class reference variable, but then here, we will not be able to access weight as the reference variable has only l,w,h and not weight 
+        Box box6 = new BoxWeight(0, 0, 0, 0);
+        // System.out.println(box6.weight);
+
     }
 }
