@@ -1,7 +1,7 @@
 package staticExample;
 
 class Test2{
-    static String name2;
+    static String name2; // here, name2 is static variable, so it updates the name everytime the new object is instantiated
 
     public Test2(String name2){
         Test2.name2 = name2;
