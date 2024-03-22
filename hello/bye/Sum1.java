@@ -1,6 +1,6 @@
 package hello.bye;
 
-import static b.Sum2.greet;
+import static trial.Sum2.greet;
 
 public class Sum1 {
     public static void main(String[] args) {
