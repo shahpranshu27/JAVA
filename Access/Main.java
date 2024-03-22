@@ -22,5 +22,12 @@ public class Main {
         // default: it is being declared by default, and it can only be accessed in the particular package that file is in.
         //  eg: if there's a package called pranshu.files and in that package, there are 2 files abc.java and def.java, now if any variable or method is default, then it can only be accessed in pranshu.files package within the 2 files (or more if more than 2 are created), but it won't be accessible from other package
         // protected:  
+
+        // IMPORTANT :
+        // when to use which access modifier?
+        // private: for sensitive data. it can be accessed via methods that can be public, like getters and setters
+        // default: it can be used when we want everything that can be acessed in the same package
+        // protected: it should be used when we want to work in a different package, but only as a subclass of this particular class 
+        // public: when we want it to be accessible everywhere
     }
 }
