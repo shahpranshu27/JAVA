@@ -20,3 +20,31 @@ javac hello.java
 
 # execute the compiled file:
 java hello
+
+4. Whitespace
+Whitespace, including spaces and newlines, between statements is ignored.
+
+5. Statements 
+In Java, a statement is a line of code that executes the task and is terminated with a semi colon (;)
+System.out.println("Java Programming!!");
+
+6. main() Method
+In Java, every application must contain a main() method, which is the entry point for the application. All other methods are invoked from the main() method.
+
+The signature of the method is public static void main(String[] args) { }. It accepts a single argument: an array of elements of type String.
+
+public class Person {
+  public static void main(String[] args) {
+    System.out.println("Hello, world!");
+  } 
+}
+
+7. Classes
+-> A class represents a single concept.
+-> A Java program must have one class whose name is the same as the program filename.
+-> In the example, the Person class must be declared in a program file named Person.java.
+public class Person {
+  public static void main(String[] args) {
+    System.out.println("I am a person, not a computer."); 
+  }
+}
