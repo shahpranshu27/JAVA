@@ -11,3 +11,12 @@ System.out.println("Hello World!)
 Comments are bit of text, that are ignored by the compiler. They are used to increase the readability of the program. 
 -> Single line comments are created by :- //
 -> Multi line comments are created by :- /* .... */
+
+3. Compiling Java
+In Java, when we compile the program, each individual class is converted into .class file, which is known as byte code.
+The JVM (Java Virtual Machine) is used to run the byte code.
+# compile the class file:
+javac hello.java
+
+# execute the compiled file:
+java hello
