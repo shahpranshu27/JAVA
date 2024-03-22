@@ -28,6 +28,7 @@ public class Main {
         // private: for sensitive data. it can be accessed via methods that can be public, like getters and setters
         // default: it can be used when we want everything that can be acessed in the same package
         // protected: it should be used when we want to work in a different package, but only as a subclass of this particular class 
+        // either subclass in different package, or subclass of subclass in a different package 
         // public: when we want it to be accessible everywhere
     }
 }
