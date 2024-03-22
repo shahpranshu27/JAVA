@@ -1,4 +1,4 @@
-package b;
+package trial;
 import static hello.bye.Sum1.message;
 public class Sum1 {
     public static void main(String[] args) {

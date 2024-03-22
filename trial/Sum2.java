@@ -1,4 +1,4 @@
-package b;
+package trial;
 
 // import static hello.Sum1.text;
 // import static hello.bye.Sum1.message;
