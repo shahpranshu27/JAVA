@@ -38,6 +38,10 @@ public class Main {
         // BoxPrice box8 = new BoxPrice();
         // System.out.println(box8.weight+" "+box8.price); // it will print -1.0 -1.0 as we have not passed any arguement in the object, it will take the default value which are -1 and -1 for both 
 
+        // static methods can be inherited, but can not be overriden, because the parent class is always gonna be called, no matter what 
+
+        // Overriding depends on objects, static doesn't depend on objects, hence static methods can not be overriden 
+
         BoxPrice box9 = new BoxPrice(box4, 10);
         // System.out.println(box9.h + " "+box9.price);
 
