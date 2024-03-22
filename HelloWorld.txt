@@ -1,0 +1,7 @@
+1. Print Line
+System.out.println() can print to the console
+-> System is a class from the Core library provided by Java.
+-> out is an object that controls the output
+-> println() is a method associated with that object that recieves a single arguement.
+System.out.println("Hello World!)
+// o/p: Hello World!
