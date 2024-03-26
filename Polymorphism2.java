@@ -1,23 +1,23 @@
 class Animal6{  
     void eat(){System.out.println("eating...");}  
     }  
-    class Dog extends Animal6{  
+    class Dog3 extends Animal6{  
     void eat(){System.out.println("eating bread...");}  
     }  
-    class Cat extends Animal6{  
+    class Cat3 extends Animal6{  
     void eat(){System.out.println("eating rat...");}  
     }  
-    class Lion extends Animal6{  
+    class Lion3 extends Animal6{  
     void eat(){System.out.println("eating meat...");}  
 }  
 class Polymorphism2{  
     public static void main(String[] args){  
     Animal6 a;  
-    a=new Dog();  
+    a=new Dog3();  
     a.eat();  
-    a=new Cat();  
+    a=new Cat3();  
     a.eat();  
-    a=new Lion();  
+    a=new Lion3();  
     a.eat();  
     }
 }
