@@ -22,5 +22,9 @@ public class Car implements Engine, Brake, Media {
     public void acc() {
         System.out.println("I accelerate like a normal car");
     }
+
+    public void price(){
+        System.out.println(Engine.price);
+    }
     
 }
