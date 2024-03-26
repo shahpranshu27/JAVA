@@ -34,8 +34,11 @@ public class NiceCar {
     // public void upgradeEngine(Engine engine){
     //     this.engine = engine;
     // }
+    // public void upgradeEngine(){
+    //     this.engine = new PowerEngine();
+    // }
     public void upgradeEngine(){
-        this.engine = new PowerEngine();
+        this.engine = new ElectricEngine();
     }
 
 }
