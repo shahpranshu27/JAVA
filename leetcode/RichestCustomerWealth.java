@@ -1,5 +1,5 @@
 package leetcode;
-
+// 1672 : Richest customer wealth
 public class RichestCustomerWealth {
     static int maximumWealth(int[][] arr) {
         int res = 0;
