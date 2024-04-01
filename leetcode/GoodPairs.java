@@ -1,4 +1,5 @@
 package leetcode;
+// 1512 : number of good pairs
 /*
 good pairs are those, where arr[i] == arr[j] && i<j
  */
