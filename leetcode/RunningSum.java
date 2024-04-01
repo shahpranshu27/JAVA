@@ -1,5 +1,5 @@
 package leetcode;
-
+// 1480 : running sum of 1D arrays
 import java.util.Arrays;
 
 public class RunningSum {
