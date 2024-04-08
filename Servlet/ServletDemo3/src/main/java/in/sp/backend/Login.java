@@ -21,8 +21,9 @@ public class Login extends HttpServlet
 		PrintWriter out = response.getWriter();
 		
 		if(myEmail.equals("abc@gmail.com") && myPass.equals("1234")) {
-//			Object pranshu = request.getAttribute("name_key");
-			request.getAttribute("name_key");
+//			String myName = "Pranshu";
+//			request.setAttribute("name_key", myName);
+			request.setAttribute("name_key", "Pranshu Shah");
 			RequestDispatcher rd =  request.getRequestDispatcher("/profile.jsp");
 			rd.forward(request, response);
 		}
