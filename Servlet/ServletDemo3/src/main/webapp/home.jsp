@@ -15,8 +15,8 @@
 	<h3> Welcome!! <%= myName1 %> </h3>
 	<h3> Gender: <%= myGen %></h3>
 	
-	<a href="home.jsp">Home</a> &nbsp; &nbsp;
+	<a href="profile.jsp">Profile</a> &nbsp; &nbsp;
 	<a href="about-us.jsp">About us</a> &nbsp; &nbsp;
-	<a href="logout">Logout</a>
+
 </body>
 </html>
