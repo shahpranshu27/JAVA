@@ -14,8 +14,11 @@ public class Login extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		String myName = request.getParameter("name1");
-		String myPass = request.getParameter("password1");
+		String mySearch = request.getParameter("search1");
+		
+//		sendRediect() method is used to redirect to another application
+		response.sendRedirect("https://www.google.com/search?q="+mySearch);
+//		String myPass = request.getParameter("password1");
 
 //		System.out.println("name: "+myName);
 //		System.out.println("password: "+myPass);
@@ -27,10 +30,10 @@ public class Login extends HttpServlet {
 //		if the method is "post", we can use doPost() method, and if the method is "get", then we can use doGet() method. this is used for specific methods, 
 //		otherwise service() method accepts both
 
-		if (myName.equals("as") && myPass.equals("1234")) {
-			System.out.println("success");
-		} else {
-			System.out.println("failure");
-		}
+//		if (myName.equals("as") && myPass.equals("1234")) {
+//			System.out.println("success");
+//		} else {
+//			System.out.println("failure");
+//		}
 	}
 }
