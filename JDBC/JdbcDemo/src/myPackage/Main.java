@@ -8,9 +8,17 @@ public class Main {
 		
 //		st.createTable();
 		
+//		CRUD operation :- Create, Read, Update, Delete
+		
 //		st.createData();
 		
-		st.readData();
+//		st.readData();
+		
+//		st.updateData();
+		
+//		st.readData(); // to check and read data once our data is updated
+		
+//		st.deleteData();
 	}
 
 }

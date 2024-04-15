@@ -65,8 +65,8 @@ public class Student {
 //			stm.execute(query);
 			PreparedStatement ps = con.prepareStatement("insert into student values (?,?,?)");
 			ps.setInt(1, 2);			
-			ps.setString(2, "radhika");
-			ps.setString(3, "radhika@gmail.com");
+			ps.setString(2, "tathya");
+			ps.setString(3, "tathya@gmail.com");
 			
 			ps.execute();
 			System.out.println("data inserted into the table successfully");
@@ -104,6 +104,53 @@ public class Student {
 				System.out.println(email);
 			}
 			System.out.println("data read successfully");
+			con.close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void updateData() {
+		try {
+			String url = "jdbc:mysql://localhost:3306/";
+			String db = "demo2";
+			String username = "root";
+			String password = "Rays@123";
+			
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con = DriverManager.getConnection(url+db, username, password);
+			
+			PreparedStatement ps = con.prepareStatement("update student set s_id=? where s_name=?");
+			ps.setInt(1, 3);
+			ps.setString(2, "tathya");
+			
+			ps.execute();
+			
+			System.out.println("data updated successfully");
+			con.close();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void deleteData() {
+		try {
+			String url = "jdbc:mysql://localhost:3306/";
+			String db = "demo2";
+			String username = "root";
+			String password = "Rays@123";
+			
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con = DriverManager.getConnection(url+db, username, password);
+			
+			PreparedStatement ps = con.prepareStatement("delete from student where s_name=?");
+			ps.setString(1, "tathya");
+			
+			ps.execute();
+			
+			System.out.println("data deleted successfully");
 			con.close();
 			
 		} catch (Exception e) {
